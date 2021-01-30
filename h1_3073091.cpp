@@ -42,7 +42,7 @@ bool lesenFunk () //Diese Funktion fuellt die Liste, definiert nach was die Aufg
     getline(cin, kontaktListe[aktuellZahl].telNum);//Spaeter sortiert das Program die Eingaben!
     cout << "Welcher Typ ist die Telefonnummer?(What type is the phone number of?)" << endl << "Wohnung(Home)"
     << endl << "Arbeit(Work)" << endl << "Fax" << endl << "Handy(Mobile)" << endl << "EtwasAnderes(Something else)" << endl
-    << "Typen Sie den Typ: ";
+    << "Typen Sie den Typ (Type the type): ";
     string tempTyp;
     getline (cin, tempTyp);
     switch (tempTyp[0])
