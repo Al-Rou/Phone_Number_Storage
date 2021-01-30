@@ -37,11 +37,11 @@ bool lesenFunk () //Diese Funktion fuellt die Liste, definiert nach was die Aufg
     if ( cin.peek() == '\n' )
 		cin.ignore();
     getline(cin, kontaktListe[aktuellZahl].kontaktName);//Das Program fuellt die Liste von der ersten Zelle, wie
-    cout << "Geben Sie die Telefonnummer des Kontaktes ein: " << endl;//der Zaehler zaelt.
+    cout << "Geben Sie die Telefonnummer des Kontaktes ein (Enter phone number of the contact): " << endl;//der Zaehler zaelt.
 
     getline(cin, kontaktListe[aktuellZahl].telNum);//Spaeter sortiert das Program die Eingaben!
-    cout << "Welcher Typ ist die Telefonnummer?" << endl << "Wohnung"
-    << endl << "Arbeit" << endl << "Fax" << endl << "Handy" << endl << "EtwasAnderes" << endl
+    cout << "Welcher Typ ist die Telefonnummer?(What type is the phone number of?)" << endl << "Wohnung(Home)"
+    << endl << "Arbeit(Work)" << endl << "Fax" << endl << "Handy(Mobile)" << endl << "EtwasAnderes(Something else)" << endl
     << "Typen Sie den Typ: ";
     string tempTyp;
     getline (cin, tempTyp);
