@@ -32,7 +32,7 @@ bool lesenFunk () //Diese Funktion fuellt die Liste, definiert nach was die Aufg
     }
     else {
 
-    cout << "Geben Sie den Namen des Kontaktes ein: " << endl;
+    cout << "Geben Sie den Namen des Kontaktes ein (Enter name of the contact): " << endl;
 
     if ( cin.peek() == '\n' )
 		cin.ignore();
