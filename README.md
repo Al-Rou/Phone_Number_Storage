@@ -1,2 +1,2 @@
 In practical section (called "Praktikum" in German) of Object-Oriented Programming, which was a core course during my Bachelor Program, this Phone Number Storage was the very first task. In this code, some basics in C++ were practiced. According to the task, some features had to be realized such as storing contacts, having them on the screen, and deleting any of them or all on the spot.
-As always, I went further than the defined task and added more features to make it closer to a real-life helpful program. 
+As always, I went further than the defined task and added more features to make it closer to a real-life helpful program. The menu (even naming of variables/functions inside the code) is all in German.
